@@ -1,0 +1,158 @@
+body
+{
+background-image: url("../image/wallpaper.jpg");		/* ../vamos a raiz luego /image carpeta donde esta la imagen*/
+}
+
+header, nav, aside, section, footer
+{
+
+}
+
+.container 
+{			
+/*background:black;*/ 
+width: 80%;            
+margin: auto;
+border-radius: 5px;
+padding: 10px;
+background: rgba(0,0,0,.5);/*transparencia*/
+}
+
+header
+{		
+background: #7feeff;
+border-radius: 70px 70px 0px 0px;
+margin-bottom: 3px;
+}
+
+header h1
+{
+text-align: center;
+padding: 5px;
+margin: 0px;
+}
+
+
+aside
+{
+height: 200px;
+width: 19%;
+float: left;
+background: #8cffd4;
+opacity: .5;
+/*background: rgba();  da transparencia pero hay que buscar el color de hexadecimal a rgba*/
+margin-top: 3px;
+margin-right: 3px;
+}
+
+section
+{
+width: 80%;
+float: left;		
+/*background: #8cffd4;*/
+background: rgba(2,2,2,.5);
+margin: 3px 0px;
+}
+
+.label
+{
+	
+	width: 100px;
+	text-align: center;
+	padding-right: 1px;
+
+}
+
+
+#login
+{
+width: 100%;
+margin-left: 0px;
+}
+
+footer
+{
+height: 20px;
+clear: both;
+background: #7feeff;
+border-radius: 0px 0px 300px 300px;
+}
+
+#login2
+{
+background: #fff;
+width: 30%;
+padding: 20px;
+border-radius: 10px;
+margin: 20px auto;
+}
+
+#login3
+{
+border-radius: 20%;
+margin-top: 5px;
+}
+
+nav
+{
+background: green;
+
+}
+
+nav ul
+{
+	margin: 5px 10px;
+	}
+
+	nav ul li
+	{
+		display: inline-block;
+		padding: 5px 5px;
+	}
+
+	a
+	{
+		text-decoration: none;
+		color: #fff;
+	}
+
+
+	nav ul li:hover
+	{
+		background: #8cffd4;
+	}
+
+form
+{
+	text-align: center;
+	background: white;
+}
+
+
+table 
+{
+color: white;
+text-align: center;
+margin: auto;
+padding: 5px 5px;
+border: 1px silver solid;
+}
+
+table, td, th
+{
+text-align: center;
+}
+
+legend
+{
+	background: #7feeff;
+}
+
+div
+
+{
+	margin: auto;
+	padding: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}

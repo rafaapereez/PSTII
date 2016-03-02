@@ -1,0 +1,208 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>practica2</title>
+	<meta charset="utf-8">  
+	<link rel="stylesheet" type="text/css" href="css/reset">			 <!-- etiqueta nos sirve para poder insertar caracteres especiales -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">  		 <!-- invoca la hoja de stylo -->
+</head>
+
+<body>
+	<div class="container">
+		<header><h1>Bienvenido</h1></header>
+		<nav>
+			<ul>
+				<a href="index.html"><li>inicio</li></a>
+				<a href="#"><li>mision</li></a>
+				<a href="#"><li>usuario</li></a>
+				<a href="login.html"><li>salir</li></a>
+			</ul>
+		</nav>
+		<aside></aside>
+		<section>
+			
+							<article>
+				<form action="view.html" method="POST">
+					<fieldset class="tabla1" >
+						<legend class="tabla1"><h3>DATOS DE IDENTIFICACION DEL ALUMNO</h3></legend>
+
+							<div class="tabla1">
+							
+								<label for="name">NOMBRES</label>
+								<input id="name" type="text" name="name" value="">
+								<label for="apell">APELLIDOS</label >
+								<input id="apell" type="text" name="apell" value="">
+                            
+							</div>	
+
+							<div class="tabla1">
+							
+								<div>FECHA DE NACIMIENTO</div>
+								<label for="date">Fecha</label>
+								<input id="date" type="number" name="date" value="" min="1" max="31">
+								<label for="month">Mes</label>
+								<input id="month" type="number" name="month" value="" min="1" max="12">
+								<label for="year">Año</label>
+								<input id="year" type="number" name="year" value="" min="1990" max="2015">
+						
+
+						    
+							</div>
+
+							<div class="tabla1">
+							
+								<label class="label">SEXO</label>
+
+								<input id="m" type="radio" name="sex" value="1">
+								<label for="m">masculino</label>
+
+								<input id="f" type="radio" name="sex" value="2">
+								<label for="f">femenino</label>
+
+								<label for="age">EDAD</label>
+								<input id="age" type="number" name="age" value="" min="3" max="15">
+						    
+							</div>
+
+							<div class="tabla1">
+							<hr>
+								<label for="place">LUGAR DE NACIMIENTO</label>
+								<input id="place" type="text" name="place" value="">
+						    </hr>
+							</div>
+
+
+							<div class="tabla1">
+							<hr>
+								<label class="label" for="address">DIRECCION DE HABITACION</label>
+								<textarea id="address" name="address"></textarea>
+								<label for="phone">TELEFONO</label>
+								<input id="phone" type="number" name="phone" value="">
+						    </hr>
+						    </div>
+
+						    <div class="tabla1">
+						    <hr>
+						    	<label class="label" for="disease">ENFERMEDAD QUE PADECE</label>
+								<textarea id="disease" name="disease"></textarea>
+						    </hr>
+						    </div>
+
+						    <div class="tabla1">
+						    <hr>
+						    	<label class="label" for="medicine">MEDICAMENTO AL CUAL ES ALERGICO</label>
+								<textarea id="medicine" name="medicine"></textarea>
+						    </hr>
+						    </div>
+						
+
+							<div class="tabla1">
+							<hr>
+							<label class="label"for="degree">GRADO A CURSAR</label>
+							<select id="degree" name="degree">
+								<option value="0">Seleccione el Grado</option>
+								<option value="1er">1er Grado</option>
+								<option value="2do">2do Grado</option>
+								<option value="3er">3er Grado</option>
+								<option value="4to">4to Grado</option>
+								<option value="5to">5to Grado</option>
+								<option value="6to">6to Grado</option>
+							</select>
+                            <label for="sect">SECCION</label>
+							<input id="sect" type="text" name="sect" value="">
+
+						</hr>
+						</div>
+
+					</fieldset>
+
+						<fieldset class="tabla4">	
+						<legend class="tabla4"><h3>DATOS DE IDENTIFICACION DEL REPRESENTANTE</h3></legend>
+						<div class="tabla4">
+						<hr>
+							<label for="name1">NOMBRES</label>
+							<input id="name1" type="text" name="name1" value="">
+							<label for="apell1">APELLIDOS</label>
+							<input id="apell1" type="text" name="apell1" value="">
+							<label class="label"for="ci">CI</label>
+							<input id="ci" type="number" min="1000000" max="30000000" name="" value="" required>
+						</hr>
+						</div>
+
+						<div class="tabla4">
+						<hr>
+							<p>FECHA DE NACIMIENTO</p>
+							<label for="date1">Fecha</label>
+							<input id="date1" type="number" name="date1" value="" min="1" max="31">
+							<label for="month1">Mes</label>
+							<input id="month1" type="text" name="month1" value="" min="1" max="12">
+							<label for="age1">Año</label>
+							<input id="age1" type="text" name="age1" value="" min="1940" max="2000">
+						</hr>
+						</div>
+
+						<div class="tabla4">
+						<hr> 
+							<label for="place1">LUGAR DE NACIMIENTO</label>
+							<input id="place1" type="text" name="place1" value="">
+						</hr>
+						</div>
+
+						<div class="tabla4">
+						<hr> 
+							<label for="profession">GRADO DE INSTRUCCION</label>
+							<input id="profession" type="text" name="profession" value="">
+						</hr>
+						</div>
+
+						<div class="tabla4">
+						<hr> 
+							<label for="occupation">OCUPACION ACTUAL</label>
+							<input id="occupation" type="text" name="occupation" value="">
+						</hr>
+						</div>
+
+
+						<div class="tabla4">
+						<hr>
+
+							<label class="label" for="address3">DIRECCION DE TRABAJO</label>
+							<textarea id="address3" name="address3"></textarea>
+
+						</hr>
+						</div>
+
+						<div class="tabla4">
+						<hr>
+
+							<label for="phone3">TELEFONO</label>
+							<input id="phone3" type="number" name="phone3" value="">
+							<label for="email1">Email</label>
+							<input id="email1" type="email" name="email1" value="">
+
+						</hr>
+						</div>
+
+						<div class="tabla4">
+						<hr>
+
+							<label for="income1">INGRESOS MENSUALES</label>
+							<input id="income1" type="number" name="income1" value="">
+
+						</hr>
+						</div>
+					</fieldset>
+
+
+
+						<div class="boton2">
+						<input type="submit" value="guardar" href="view.html" >
+						<input type="reset" >
+						</div>
+
+		</section>
+		<footer></footer>
+	</div>
+
+</body>
+</html>

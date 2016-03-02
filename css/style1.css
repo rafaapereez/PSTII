@@ -1,0 +1,68 @@
+header
+{
+
+	background: blue;
+}
+
+header h1
+{
+	text-align: center;
+}
+
+nav
+{
+background: #ff66ff;
+}
+
+nav ul li
+{
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+}
+
+nav ul li:hover
+{
+	background: red; 
+}
+
+nav ul li a:link, nav ul li a:visited
+{
+	color: #000;
+}
+
+aside
+{
+	background: green;
+	width: 20%;
+	display: inline-block;
+	float: left;
+}
+
+section
+{
+	background: yellow;
+	width: 80%;
+	display: inline-block;
+}
+
+footer
+{
+	background: black;
+}
+
+fieldset
+{
+	width: 50%;
+	margin: auto;
+	background: #fff;
+}
+
+.login
+{
+	width: 100%;
+}
